@@ -32,4 +32,7 @@ class Manager extends Employee {
 }
 
 
-export {};
+export { };
+
+const manager = new Manager("Vanya", "sales", 1000);
+console.log(manager);
